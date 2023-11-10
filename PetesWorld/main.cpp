@@ -59,6 +59,29 @@ int main()
 		}
 	}
 
+	if (letter == 't' || letter == 'T') // written by Miya
+	{
+		if (region == 1)
+		{
+			std::cout << "Trinidad and Tobago " << std::endl; // default negative response
+		}
+		if (region == 2)
+		{
+			std::cout << "Turkey" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Tanzania; officially the United Republic of Tanzania, Togo,Tunisia,Turkmenistan" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Taiwan, Tajikistan, Thailand, Tibet,Timor-Leste (East Timor, Turks and Caicos IslandsCaribbean, parts of the Bahamas island chain, Tuvalu " << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Tokelau,Tonga, " << std::endl;
+		}
+	}
 	if (letter == 'u' || letter == 'U') // written by Miya
 	{
 		if (region == 1)
