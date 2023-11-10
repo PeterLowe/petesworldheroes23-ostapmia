@@ -59,6 +59,29 @@ int main()
 		}
 	}
 
+	if (letter == 'u' || letter == 'U') // written by Miya
+	{
+		if (region == 1)
+		{
+			std::cout << "United States, Uruguay" << std::endl; // default negative response
+		}
+		if (region == 2)
+		{
+			std::cout << "Ukraine, United Kingdom" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Uzbekistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanuatu, Virgin Islands, Virgin Islands " << std::endl;
+		}
+	}
 	if (letter == 'v' || letter == 'V') // written by Miya
 	{
 		if (region == 1)
