@@ -57,28 +57,53 @@ int main()
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
-	}	
-	if (letter == 'w' || letter == 'W') // written by Miya
+	}
+
+	if (letter == 'v' || letter == 'V') // written by Miya
 	{
 		if (region == 1)
 		{
-			std::cout << "There are no Ws in the Americas" << std::endl; // default negative response
+			std::cout << "Venezuela" << std::endl; // default negative response
 		}
 		if (region == 2)
 		{
-			std::cout << "There are no Ws in Europe" << std::endl;
+			std::cout << "Vatican City State (Holy See)" << std::endl;
 		}
 		if (region == 3)
 		{
-			std::cout << "Western Sahara" << std::endl;
+			std::cout << "There are no Vs in Africa" << std::endl;
 		}
 		if (region == 4)
 		{
-			std::cout << "There are no Ws in Asia" << std::endl;
+			std::cout << "Vietnam" << std::endl;
 		}
 		if (region == 5)
 		{
-			std::cout << "Wallis and Futuna Islands" << std::endl;
+			std::cout << "Vanuatu, Virgin Islands, Virgin Islands " << std::endl;
+		}
+	}
+		if (letter == 'w' || letter == 'W') // written by Miya
+		{
+			if (region == 1)
+			{
+				std::cout << "There are no Ws in the Americas" << std::endl; // default negative response
+			}
+			if (region == 2)
+			{
+				std::cout << "There are no Ws in Europe" << std::endl;
+			}
+			if (region == 3)
+			{
+				std::cout << "Western Sahara" << std::endl;
+			}
+			if (region == 4)
+			{
+				std::cout << "There are no Ws in Asia" << std::endl;
+			}
+			if (region == 5)
+			{
+				std::cout << "Wallis and Futuna Islands" << std::endl;
+			}
 		}
 	if (letter == 'y' || letter == 'Y') // written by Miya
 	{
